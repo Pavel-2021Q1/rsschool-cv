@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Asulbek Matura';
+    src: url("../resources/fonts/asylbek.ttf");
+}
+
+@font-face {
+    font-family: 'Brush Flair Cyr';
+    src: url("../resources/fonts/brush.otf"); 
+}
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background:#ffffff;        
+    font-size: 100%;
+    max-width: 1024px; 
+    margin:0 auto;
+    padding: 0px;  
+ }
+ 
+ .navigation {
+     width:100%;
+     height:50px;
+     background: #323232;
+     list-style: none;
+     padding-left: 0;
+     margin-left: 0;
+     display: block;
+     position: relative;
+ }
+ 
+ 
+ .menu {
+     margin: 0;
+     list-style: none;
+     overflow: auto;
+     vertical-align: center;
+ 
+ }
+ 
+ .menu-item {
+     display: inline-block;
+     height: 40px;
+     width: 130px;
+     padding: 10px;
+     margin-top: 10px;
+ 
+ }
+ 
+ .menu-item li::before{
+     content: '';
+ 
+ }
+ 
+ .menu-item li::after {
+     content: '';
+ }
+ 
+ .navigation li.active a,nav li  a:hover{	
+     text-decoration:none;        
+     color: #2EB398;    
+ }
+    
+ .navigation li  a {        
+     color: #fff;        
+     display: block;        
+     text-align: center;        
+     text-decoration: none;                
+     text-transform: uppercase;        
+     font-size: 9px;        
+ }
+ 
+ .main {
+     background-color: #eaeaea;
+     margin: 0px;
+     padding: 0px;
+ }
+ 
+ .info {
+     display: block;
+     height: 300px;
+     background-color: antiquewhite;
+     border-bottom: 5px solid gray;
+ }
+
+ .info h2 {
+     font-family: 'Asulbek Matura';
+     font-size: 40px;
+ }
+ 
+ .image {
+     
+     border-radius: 50%;
+     padding: 40px;
+     float: right;
+     right: 200px;
+ }
+ 
+ .name {
+     display: inline-block;
+     position: relative;
+     width: 20%;
+     float: left;
+     left: 100px;
+     padding: 30px;
+     padding-right: 10px;
+ }
+ 
+ .footer {
+     display: block;
+     background-color: #6b6975;
+     margin-top: 0;
+     padding-top: 0;
+ }
+ .contact {
+     list-style: none;
+     padding-left: 0;
+     margin-left: 0;
+     background-color: #6b6975;
+     border-bottom: 1px solid black;
+     margin-top: 0;
+     height: 50px;
+ }
+ 
+ .contact-item {
+     display: inline;
+     
+     padding-left: 175px;
+     padding-top: 10px;
+     
+ }
+ 
+ .contact-item a {
+     display: inline-block;
+     text-decoration: none;
+     background-color: #6b6975;
+     padding-top: 10px;
+   
+ }
+ 
+ .footer p {
+     text-align: center;
+     padding-bottom: 10px;
+ }
+ 
+ .blok {
+     display: block;
+     height: auto;
+     border-bottom: 5px solid gray;
+     padding: 20px 40px;
+ }
+
+ .blok h3 {
+     font-family: 'Brush Flair Cyr';
+     font-size: 25px;
+ }
+ 
+ .no_border {
+     border-bottom: 0px;
+     margin-bottom: -15px;
+ }
+ 
