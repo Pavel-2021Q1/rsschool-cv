@@ -116,3 +116,8 @@ All the knowledge gained by studying books on programming. Constantly practice o
 
 
 For practice use mobile apps such as *Lingualeo*, *Duolingo*, *EnglishLinduo*, *Simpler*. All specifications study on the original resources. I constantly watch updates on topics of interest to me and view them in English.
+
+
+
+
+
